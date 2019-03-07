@@ -1,17 +1,37 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" style="margin:0px; padding:0px;">
+  <!--  <contact></contact>
+    <service></service>
+    <description></description>
+    <exercice></exercice>
+    <exercice1></exercice1>
+    <footerComponent></footerComponent>-->
+    <exercice2></exercice2>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import contact from './components/contact.vue'
+import footerComponent from './components/footer.vue'
+import description from './components/description.vue'
+import service from './components/service.vue'
+import exercice from './components/exerciceconcentrationattention.vue'
+import exercice1 from './components/exerciceperceptionvisuelle.vue'
+
+import exercice2 from './components/exercice.vue'
+
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    contact,
+    footerComponent,
+    service,
+    description,
+    exercice,
+    exercice1,
+    exercice2
   }
 }
 </script>
